@@ -18,5 +18,5 @@ INPUT_SETTINGS = {
 };
 pc.script.legacy = false;
 PRELOAD_MODULES = [
-    {'moduleName' : 'Ammo', 'glueUrl' : 'files/assets/35577558/1/ammo.wasm.js', 'wasmUrl' : 'files/assets/35577559/1/ammo.wasm.wasm', 'fallbackUrl' : 'files/assets/35577557/1/ammo.js', 'preload' : true},
+    { 'moduleName': 'Ammo', 'glueUrl': 'https://cdn.babylonjs.com/ammo.js', 'preload' : true},
 ];
